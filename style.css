@@ -1,0 +1,13 @@
+/* prevents padding from adding horizontal scroll */
+
+html {
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;  /*  0 on all 4 sides*/
+    min-height: 100vh; /* full height of screen */
+    background: darkmagenta;
+}
